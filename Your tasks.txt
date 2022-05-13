@@ -1,0 +1,17 @@
+1. In the ViewController, create a button "about" in the navigation bar. 
+   1.2. When the user touches this button, show an AboutViewController with information about the app and author. 
+
+
+2. Create a ScoreViewController and show to the user, as soon as the session ends, the result.
+     2.1. In a big label, show the percentage of the right questions.
+     2.2. Show the number of right answers compared to the number of questions. (ex: 20 of 25) 
+     2.3. Show a message (label) with:
+             "Congratulations". - If the score is over 80%
+             "You can do it better"  -  If the score is between >= 60%  <= 80%
+             "Try it again!"  -  If the score is between >= 20%  < 60%
+             "Oooh! You are terrible!"  - If the score is under < 20%
+             
+
+3.  In the ViewController, create a button "Questions" (you can set an icon for it).
+     3.1. When the user touches this button, show a QuestionsViewController with a list of available questions (table view).
+     3.2. When the user selects a question, you should show QuestionDetailsViewController showing the question, answer, and extra information.
